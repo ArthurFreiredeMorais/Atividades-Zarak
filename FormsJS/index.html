@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário com Validação</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <form id="form">
+      <h1>Formulário com Validação em JavaScript</h1>
+
+      <label for="name">Nome:</label>
+      <input type="text" id="name" placeholder="Digite seu nome">
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" placeholder="Digite seu e-mail">
+
+      <label for="password">Senha:</label>
+      <input type="password" id="password" placeholder="Mínimo 8 caracteres">
+
+      <label for="job">Situação de trabalho:</label>
+      <select name="job" id="job">
+        <option value="">Selecione uma opção</option>
+        <option value="yes">Sim, estou buscando</option>
+        <option value="no">Não estou buscando</option>
+      </select>
+
+      <label for="message">Mensagem:</label>
+      <textarea name="message" id="message" placeholder="Digite sua mensagem..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+</body>
+</html>
